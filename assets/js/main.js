@@ -141,7 +141,7 @@
         800,
         function() {
           // Add hash (#) to URL when done scrolling (default click behavior)
-          window.history.pushState({}, 'Projects', `${currHref}${hash}`);
+          window.history.pushState({}, '', `${currHref}${hash}`);
         }
       );
     } // End if
