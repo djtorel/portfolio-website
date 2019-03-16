@@ -3464,10 +3464,10 @@ body.is-menu-visible #menu .inner {
   cursor: default;
   display: inline-block;
   font-size: 2em;
-  height: 2.25em;
+  height: 3.5em;
   line-height: 2.25em;
   text-align: center;
-  width: 2.25em;
+  width: 3.5em;
 }
 
 #banner h2 {
@@ -4210,3 +4210,5 @@ body.is-preload #banner p {
     padding: 2em 1.5em 0.1em 1.5em;
   }
 }
+
+/* My CSS */
