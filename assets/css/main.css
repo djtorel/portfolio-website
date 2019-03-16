@@ -4212,3 +4212,33 @@ body.is-preload #banner p {
 }
 
 /* My CSS */
+div.contact-new {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-new > a {
+  font-family: FontAwesome;
+  border-bottom: none;
+  border-radius: 100%;
+  border: solid 2px rgba(255, 255, 255, 0.125);
+  display: inline-block;
+  font-size: 5em;
+  height: 1.4em;
+  left: 0;
+  line-height: 1.3em;
+  text-align: center;
+  top: 0;
+  width: 1.4em;
+}
+
+/* border-radius: 100%;
+border: solid 2px rgba(255, 255, 255, 0.125);
+display: inline-block;
+font-size: 0.8em;
+height: 2.5em;
+left: 0;
+line-height: 2.35em;
+position: absolute;
+text-align: center;
+top: 0;
+width: 2.5em; */
