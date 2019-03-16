@@ -4237,14 +4237,7 @@ div.contact-new {
   }
 }
 
-/* border-radius: 100%;
-border: solid 2px rgba(255, 255, 255, 0.125);
-display: inline-block;
-font-size: 0.8em;
-height: 2.5em;
-left: 0;
-line-height: 2.35em;
-position: absolute;
-text-align: center;
-top: 0;
-width: 2.5em; */
+a:active,
+a:focus {
+  outline: 0;
+}
