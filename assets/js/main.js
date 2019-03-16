@@ -136,7 +136,7 @@
       const currHref = `${window.location.origin}${window.location.pathname}`;
       $('html, body').animate(
         {
-          scrollTop: $(hash).offset().top - 50
+          scrollTop: $(hash).offset().top - 30
         },
         800,
         function() {
