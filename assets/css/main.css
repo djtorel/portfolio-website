@@ -4221,14 +4221,20 @@ div.contact-new {
   border-bottom: none;
   border-radius: 100%;
   border: solid 2px rgba(255, 255, 255, 0.125);
-  display: inline-block;
   font-size: 5em;
   height: 1.4em;
-  left: 0;
-  line-height: 1.3em;
+  line-height: 1.4em;
   text-align: center;
-  top: 0;
   width: 1.4em;
+}
+
+@media screen and (max-width: 500px) {
+  .contact-new > a {
+    font-size: 3em;
+    height: 1.4em;
+    line-height: 1.3em;
+    width: 1.4em;
+  }
 }
 
 /* border-radius: 100%;
