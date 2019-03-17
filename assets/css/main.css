@@ -4228,9 +4228,18 @@ div.contact-new {
   width: 1.4em;
 }
 
+@media screen and (max-width: 786px) {
+  .contact-new > a {
+    font-size: 4em;
+    height: 1.4em;
+    line-height: 1.4em;
+    width: 1.4em;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .contact-new > a {
-    font-size: 3em;
+    font-size: 2.5em;
     height: 1.4em;
     line-height: 1.3em;
     width: 1.4em;
